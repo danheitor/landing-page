@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Roboto;
 }
 
 /* configurando o topo da pagina */
@@ -13,8 +14,9 @@
 }
 
 .header-text {
+    color: #F9FAF8;
+    font-size: 24px;
     font-weight: bold;
-    font-size: 26px;
     
 }
 .navbar {
@@ -45,6 +47,11 @@ li {
     justify-content: center;
 }
 
+.welcome-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 .welcome-img {
     display: flex;
     height: 250px;
@@ -82,8 +89,8 @@ a {
 
 .main-content h1 {
     color: #1f2937;
-    font-size: 33px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: bolder;
     padding: 2em;
 }
 .square-container {
@@ -115,7 +122,8 @@ a {
 }
 
 .quote em {
-    font-size: 30px;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .quote p {
